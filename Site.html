@@ -1,0 +1,141 @@
+<html lang = 'en'>
+    <head> 
+        <meta charset = 'UTF-8'>
+        <link href=" ./Site.css" rel="stylesheet">
+        <title> My new site</title>
+        <body> 
+           <header> 
+                <div style = 'font-size: 50px;'> 
+Набор «Кератиновое восстановление волос» Lador
+                </div>
+                <span> Пн - Пт: с 9:00 до 18:00
+
+                    Сб - Вс: Выходной </span>
+                <span> 29009 Ukraine,
+                    Хмельницкий,
+                    Львовское шоссе, 10  </span>
+                <span> +380 (96) 715-28-37 </span>  
+
+           </header>
+                <div id = 'zast1'> 
+                </div>    
+
+                <div class = "container mb-5">
+                    <!--Контейнер с товарами-->
+                    <table class = 'tovary'>
+                 <!-- Shampoo530ml-->
+                 <tr> 
+                    <td class="col-md-7"> 
+                        <div class="card md-4 cart-item" data-id="01"> 
+                            <img class ='shampoo product-img' style="margin-left: 60px;" src = 'image/shampoo.png' alt=""> 
+                            <div class="card-body text-center">
+                                <h4 class="item-title"> Shampoo La'dor 530ml </h4> 
+                                </div>
+                                <!---Счетчик-->
+                             <div class="items counter-wrapper"> 
+                                <button class="minus items__control" data-action="minus">-</button>
+                                <div class="items__current" data-counter>1</div>
+                                <button class="plus items__control" data-action="plus"> +</button>
+                            </div>
+                            <!---// Счетчик-->
+                                <div class="price"> 
+                                    <div data-card class="price__currency"></div>
+                                    </div>
+                                <button  data-cart class="btn btn-block" style="margin-left: 120px; margin-top: 10px; margin-bottom: 10px;"> В корзину </button>
+                                </div>
+                            </td>
+                    <!-- Shampoo2 150ml-->
+                    <td class="col-md-7"> 
+                        <div class="card md-4 cart-item " data-id="02"> 
+                            <img class ='shampoo2 product-img' style="margin-left: 80px;" src = 'image/shampoo2.png' alt=""> 
+                            <div class="card-body text-center">
+                                <h4 class="item-title"> Shampoo La'dor 150ml </h4> 
+                                </div>
+                                <!---Счетчик-->
+                             <div class="items counter-wrapper"> 
+                                <button class="minus items__control" data-action="minus">-</button>
+                                <div class="items__current" data-counter>1</div>
+                                <button class="plus items__control" data-action="plus"> +</button>
+                            </div>
+                            <!---// Счетчик-->
+                                <div class="price"> 
+                                    <div data-card class="price__currency" style="margin-top: 10px; margin-bottom: 10px;"> </div>
+                                    <button style="margin-right: 130px; margin-top:10px" data-cart class="btn btn-block"> В корзину </button>
+                                </div>
+                                </div>
+                            </td>
+                    </tr>
+                    <tr>
+                        <!--Maska-->
+                 <td class="col-md-8"> 
+                    <div class="card md-4 cart-item" data-id="03"> 
+                        <img class ='product-img mask' src ='image/mask.jpeg' alt="" style="width: 200; height: 350px;"> 
+                        <div class="card-body text-center">
+                            <h4 class="item-title"> Maska 150ml </h4> 
+                            </div>
+                            <!---Счетчик-->
+                            <div class="items counter-wrapper"> 
+                                <button class="minus items__control" data-action="minus">-</button>
+                                <div class="items__current" data-counter>1</div>
+                                <button class="plus items__control" data-action="plus"> +</button>
+                            </div>
+                            <!---// Счетчик-->
+                            <div class="price"> 
+                                <div data-card class="price__currency">  </div>
+                                <button  data-cart class="btn-block" style="margin-top: 10px;margin-bottom: 10px;"> В корзину </button>
+                                </div>
+                           
+                            </div>
+                    </td>
+                 
+
+                    <!-- Ампули-->
+                    <td class="col-md-9"> 
+                        <div class="card cart-item md-4" data-id="04"> 
+                            <img class ='product-img ampuly' src = 'image/ampuly4.jpg' alt="" > 
+                            <div class="card-body text-center">
+                                <h4 class="item-title"> Филлер La'dor 13ml</h4> 
+                                </div>
+                                <!---Счетчик-->
+                             <div class="items counter-wrapper"> 
+                                <button class="minus items__control" data-action="minus">-</button>
+                                <div class="items__current" data-counter>1</div>
+                                <button class="plus items__control" data-action="plus"> +</button>
+                            </div>
+                            <!---// Счетчик-->
+    
+                                <div class="price"> 
+                                    <div data-card class="price__currency"></div>
+                                </div>
+                                <button style="margin-bottom: 10px; margin-top: 10px;" data-cart class="btn btn-block"> В корзину </button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+                    <!-- Корзина -->
+                    <div class="corzyna" > 
+                 <div class="cart-body">
+                    <h2> Корзина</h2>
+                    <h3 class="card-title"> Ваш заказ </h3> 
+                    <div data-cart-empty class = 'alert alert-secondary' role="aler"> 
+
+                    </div>
+                 <!--Корзина пуста---->
+                 <div class="cart-wrapper"> 
+                 </div>
+
+                 <!-- Стоимость заказа-->
+                </div>
+            </div>
+            </div>
+                 <footer style = "height: 300px; background-color: greenyellow" > 
+                 </footer>
+
+                 <script src = './counter-02.js'> </script>
+                <script src ='./Site.js'> </script>
+                <script src ='./Cart-01.js'> </script>
+
+            </body>
+    </head>
+</html>
